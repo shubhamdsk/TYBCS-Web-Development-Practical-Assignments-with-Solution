@@ -1,0 +1,95 @@
+<!-- SET B
+Q. 1) :Write a PHP script for the following: Design a form to accept two strings from the user.
+a. Find whether the small string appears at the start of the large string.
+b. Find the position of the small string in the big string.
+c. Compare both the string for first n characters, also the comparison should not be case sensitive. -->
+
+<html>
+<body>
+	<body bgcolor="lightpink" >
+			
+		<style>
+		table,tr,td{
+		border :1px solid black ;
+		border-collapse : collapse;
+		}
+		tr,td{
+		padding : 10px;
+		}
+		table.center{
+		margin-left:auto;
+		margin-right:auto;
+		}
+		.btn{
+		border :2px solid black ;
+		background-color:white;
+		color:black;
+		padding: 8px 16px;
+		font-size:16px;
+		cursor:pointer;
+		border-radius:5px;
+		}
+		.success:hover{
+		background-color:#04AA6D;
+		color:white;
+		}
+		.orange:hover{
+		background:#f44336;
+		color:white;
+		}
+		</style>
+	<form action="SetB_1.php" method="get">
+	<table class="center"    style = "background-color:powderblue"  >
+		<tr>
+		<td>
+		Enter 1st String
+		</td>
+		<td>
+		<input type=text name="str1"  >
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		Enter 2nd String
+		</td>
+		<td>
+		<input type=text name="str2"  >
+		</td>
+		</tr>
+		<tr>
+		<td>
+		</td>
+		<td>
+		<input type=radio name="menu" value="small" > Find whether the small string appears at the start of the large string.
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		</td>
+		<td>
+		<input type=radio name="menu" value="pos" > Find the position of the small string in the big string.
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		</td>
+		<td>
+		<input type=radio name="menu" value="cmp" > Compare both the string for first n characters, also the comparison should not be case sensitive.
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		</td>
+		<td>
+		<input type=submit name="submit" value="submit" class="btn orange">
+		</td>
+		</tr>
+	</table>
+	</form>
+	</body>
+
+</html>
