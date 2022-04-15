@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Events</title>
+    <style>
+      body {
+        font-family: Arial;
+      }
+      #box {
+        background: pink;
+
+        padding: 10px;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box" class="test">
+      <h2>Test Box</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum assumenda
+        culpa, soluta, dolor, officia iure mollitia odio consequuntur molestias
+        eveniet a dignissimos.
+      </p>
+    </div>
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        //on click this event will occur
+        $("#box").click(function () {
+          $("#box").css("background-color", "orange");
+          // var a = $('#box').html();
+          //console.log(a);
+        });
+
+        //on double click this event will occur
+        $("#box").dblclick(function () {
+          $("#box").css("background-color", "violet");
+        });
+
+        //on right click this event will occur
+        $("#box").contextmenu(function () {
+          $("#box").css("background-color", "crimson");
+        });
+
+        //on mouse come on box this event will occur
+        $("#box").mouseenter(function () {
+          $("#box").css("background-color", "tan");
+        });
+
+        //on mouse leave out  of box this event will occur
+        $("#box").mouseleave(function () {
+          $("#box").css("background-color", "purple");
+        });
+      });
+    </script>
+  </body>
+</html>
