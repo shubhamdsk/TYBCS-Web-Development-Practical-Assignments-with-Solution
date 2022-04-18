@@ -1,0 +1,24 @@
+<?php
+session_start();
+$_SESSION['ebasic']=$_GET['bs'];
+$_SESSION['empda']=$_GET['da'];
+$_SESSION['empdha']=$_GET['hda'];
+
+$number = $_SESSION['eno'];
+$name = $_SESSION['ename'];
+$address = $_SESSION['eadd'];
+$basic = $_SESSION['ebasic'];
+$da = $_SESSION['empda'];
+$dha = $_SESSION['empdha'];
+
+echo "Employee Details"."<br>";
+
+echo "Employee Number : ".$number."<br>";
+echo "Employee Name : ".$name."<br>";
+echo "Employee Address : ".$address."<br>";
+echo "Employee Basic Salary : ".$basic."<br>";
+echo "Employee DA Salary : ".$da."<br>";
+echo "Employee HDA Salary : ".$dha."<br>";
+$total = $basic+$da+$dha;
+echo "Total Salary is : ".$total."<br>";
+?>
