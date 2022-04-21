@@ -69,8 +69,6 @@ $_SESSION['eadd']=$_GET['add'];
 
 		<tr>
 		<td>
-		</td>
-		<td>
 		<input type=submit name="submit" value="submit" class="btn orange" >
 		</td>
 		</tr>

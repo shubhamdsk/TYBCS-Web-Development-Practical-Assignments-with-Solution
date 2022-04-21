@@ -9,7 +9,7 @@ $name = $_SESSION['ename'];
 $address = $_SESSION['eadd'];
 $basic = $_SESSION['ebasic'];
 $da = $_SESSION['empda'];
-$dha = $_SESSION['empdha'];
+$hda = $_SESSION['empdha'];
 
 echo "Employee Details"."<br>";
 
@@ -18,7 +18,9 @@ echo "Employee Name : ".$name."<br>";
 echo "Employee Address : ".$address."<br>";
 echo "Employee Basic Salary : ".$basic."<br>";
 echo "Employee DA Salary : ".$da."<br>";
-echo "Employee HDA Salary : ".$dha."<br>";
-$total = $basic+$da+$dha;
+echo "Employee HDA Salary : ".$hda."<br>";
+
+$total = $basic+$da+$hda;
+
 echo "Total Salary is : ".$total."<br>";
 ?>
