@@ -37,7 +37,7 @@ $_SESSION['cno']=$_GET['num'];
 		color:white;
 		}
 		</style>
-<form action = "http://localhost/PHP/Practical/Assignment1/A5.php">
+<form action = "http://localhost/PHP/Practical/Web-Development/Assignment1/A5.php">
 	<table class="center"    style = "background-color:powderblue"  >
 <caption>Product Information</caption>
 	<tr>

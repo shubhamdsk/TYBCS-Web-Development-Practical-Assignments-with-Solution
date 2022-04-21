@@ -12,7 +12,7 @@ setcookie("set4",$_GET['b']);
 
 <html>
 <body>
-<form action = "http://localhost/PHP/Practical/Assignment1/third.php">
+<form action = "http://localhost/PHP/Practical/Web-Development/Assignment1/third.php">
 <input type="submit" value="OK" value="submit">
 </form>
 </body>

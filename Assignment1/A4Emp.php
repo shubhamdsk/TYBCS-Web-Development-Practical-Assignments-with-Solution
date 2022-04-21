@@ -37,7 +37,7 @@ $_SESSION['eadd']=$_GET['add'];
 		color:white;
 		}
 		</style>
-<form action = "http://localhost/PHP/Practical/Assignment1/A4.php">
+<form action = "http://localhost/PHP/Practical/Web-Development/Assignment1/A4.php">
 	<table class="center"    style = "background-color:powderblue"  >
 <caption>Basic Salary</caption>
 	<tr>
