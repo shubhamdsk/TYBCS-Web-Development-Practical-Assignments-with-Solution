@@ -19,6 +19,8 @@ echo "Customer Number : ".$number."<br>";
 echo "Product Name : ".$product."<br>";
 echo "Product Quantity : ".$quantity."<br>";
 echo "Product Rate : ".$rate."<br>";
+
 $total = $quantity*$rate;
+
 echo "Total : ".$total."<br>";
 ?>
