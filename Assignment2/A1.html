@@ -1,13 +1,18 @@
 <html>
   <body>
-    Exams are near or not ?
-    <input type="button" value="Yes" onclick="fun()" /><br />
-
+    <h1>javascript Promt</h1>
+    <button onclick="fun()">Click Me</button>
     <script>
       function fun() {
-        var a = confirm("Are you Sure ?");
-        if (a == true) {
-          alert("Exams are near,have you started preparing for ?");
+        var stud = prompt("Exams are near,have you started preparing for ?");
+        
+        if (stud == "No" || stud == "no" || stud == "NO") {
+          alert("Start Preparing");
+          confirm("Preparing for study");
+        }
+        if (stud == "Yes" || stud == "yes" || stud == "YES") {
+          alert("Good");
+          confirm("Finish your study");
         }
       }
     </script>
