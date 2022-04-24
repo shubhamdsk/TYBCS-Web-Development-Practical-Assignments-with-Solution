@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQuery</title>
-    <script type = text/javascript src="http:\\localhost\PHP\Practical\jquery.js"></script>
+    <script type=text/javascript src="http:\\localhost\PHP\Practical\jquery.js"></script>
 </head>
+
 <body>
-<script>
-    $(document).ready(function(){
-$("p").append("<h1>Hello World</h1>");
-$("ol").append("<li><h3>Java</h3></li>");
-    });
-</script>
-<p>After This Paragraph Some Text Will Be Added...</p>
-<ol>
-    <li>Php</li>
-    <li>Python</li>
-    <li>C</li>
-    <li>Ruby</li>
-</ol>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("p").append("<h2>Hello World</h2>");
+            });
+
+            $("#btn2").click(function () {
+                $("ol").append("<li>Java</li>");
+            });
+        });
+    </script>
+    <p>After This Paragraph Some Text Will Be Added...</p>
+    <ol>
+        <li>Php</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>Ruby</li>
+    </ol>
+    <button id="btn1">Appended Text</button>
+    <button id="btn2">Appended List</button>
 </body>
+
 </html>
