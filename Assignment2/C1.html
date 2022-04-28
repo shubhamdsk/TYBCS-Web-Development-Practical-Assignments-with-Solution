@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Events</title>
+  </head>
+
+  <!-- <body onload="myfunction()"> -->
+  <body>
+    <form action="#" method="get">
+      <table>
+        <tr>
+          <td>
+            Name:<input onclick="change1()" type="text" name="name" id="name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input
+              onclick="change()"
+              type="submit"
+              name="submit"
+              value="submit"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <div id="demo">
+        
+    </div>
+  </body>
+
+  <script>
+
+    function change() {
+      var name1 = document.getElementById("name").value;
+
+      if (name1 != "") {
+        document.getElementById("name").style.color = "red";
+
+        //document.getElementById("name").innerHTML=color1;
+        document.getElementById("name").style.fontSize = "18px";
+        //cument.getElementById("name").src="img.jpg";
+        //document.getElementById("demo").innerHTML=color1;
+        //document.getElementById("demo").innerHTML=font;
+      } else {
+        var img = new Image();
+        var div = document.getElementById("demo");
+
+        img.onload = function imag() {
+          div.appendChild(img);
+        };
+
+        img.src = "Pune.jpg";
+      }
+    }
+  </script>
+</html>
