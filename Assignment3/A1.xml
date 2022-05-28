@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<Item>
+<item type="fruit">
+<ItemName>Mango</ItemName>
+<ItemPrice>12</ItemPrice>
+<Quantity>12</Quantity>
+</item>
+
+<item type="Vegetables">
+<ItemName>Potato</ItemName>
+<ItemPrice>10</ItemPrice>
+<Quantity>12</Quantity>
+</item>
+
+<item type="Cerial">
+<ItemName>Moong</ItemName>
+<ItemPrice>120</ItemPrice>
+<Quantity>2</Quantity>
+</item>
+
+<item type="Grocerry">
+<ItemName>Sugar</ItemName>
+<ItemPrice>40</ItemPrice>
+<Quantity>2</Quantity>
+</item>
+
+<item type="Stationary">
+<ItemName>Pen</ItemName>
+<ItemPrice>4</ItemPrice>
+<Quantity>12</Quantity>
+</item>
+</Item>
