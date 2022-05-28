@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<BookInfo>
+	<book>
+		<bookno>
+			1
+		</bookno>
+		<bookname>
+			java
+		</bookname>
+		<price>
+			250
+		</price>
+		<year>
+			2006
+		</year>
+	</book>
+	<book>
+		<bookno>
+			2
+		</bookno>
+		<bookname>
+			C
+		</bookname>
+		<price>
+			500
+		</price>
+		<year>
+			1971
+		</year>
+	</book>
+</BookInfo>
