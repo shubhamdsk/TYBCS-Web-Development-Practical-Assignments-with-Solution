@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Movie_CD_Store><Classical><Movie_Name>Devdas</Movie_Name><Release_Year>1959</Release_Year></Classical><Action><Movie_Name>KGF</Movie_Name><Release_Year>2019</Release_Year></Action><Horror><Movie_Name>Creature 3D</Movie_Name><Release_Year>2019</Release_Year></Horror></Movie_CD_Store>
+<Movie_CD_Store>
+	<Classical>
+		<Movie_Name>
+			Devdas
+		</Movie_Name>
+		<Actor_Name>
+			Shahrukh Khan
+		</Actor_Name>
+		<Release_Year>
+			1959
+		</Release_Year>
+	</Classical>
+	<Action>
+		<Movie_Name>
+			KGF
+		</Movie_Name>
+		<Actor_Name>
+			Yash
+		</Actor_Name>
+		<Release_Year>
+			2019
+		</Release_Year>
+	</Action>
+	<Horror>
+		<Movie_Name>
+			Creature 3D
+		</Movie_Name>
+		<Actor_Name>
+			Neel Nitin
+		</Actor_Name>
+		<Release_Year>
+			2019
+		</Release_Year>
+	</Horror>
+</Movie_CD_Store>
