@@ -1,3 +1,5 @@
+<!-- You have to just write this program xml file will be automatically created after running this php code.. -->
+
 <?php
 $bookInfo = new SimpleXMLElement("<BookInfo/>");
 $book=$bookInfo ->addChild("book");
