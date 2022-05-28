@@ -11,12 +11,10 @@
 
 const number = parseInt(prompt("Enter a number: "));
 
-// check if number is greater than 0
 if (number > 0) {
     alert("The number is positive");
 }
 
-// if number is less than 0
 else {
     alert("The number is negative");
 }
