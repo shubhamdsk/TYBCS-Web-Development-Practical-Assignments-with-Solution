@@ -5,12 +5,14 @@ $bookInfo = new SimpleXMLElement("<BookInfo/>");
 $book=$bookInfo ->addChild("book");
 $book->addChild("bookno","1");
 $book->addChild("bookname","java");
+$book->addChild("authorname","Balguru Swami");
 $book->addChild("price","250");
 $book->addChild("year","2006");
 
 $book=$bookInfo ->addChild("book");
 $book->addChild("bookno","2");
 $book->addChild("bookname","C");
+$book->addChild("authorname","Denis Ritchie");
 $book->addChild("price","500");
 $book->addChild("year","1971");
 

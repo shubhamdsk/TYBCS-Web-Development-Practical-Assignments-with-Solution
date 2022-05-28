@@ -7,6 +7,9 @@
 		<bookname>
 			java
 		</bookname>
+		<authorname>
+			Balguru Swami
+		</authorname>
 		<price>
 			250
 		</price>
@@ -21,6 +24,9 @@
 		<bookname>
 			C
 		</bookname>
+		<authorname>
+			Denis Ritchie
+		</authorname>
 		<price>
 			500
 		</price>
