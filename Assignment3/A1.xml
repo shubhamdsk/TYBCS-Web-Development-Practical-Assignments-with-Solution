@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "A2.css"?>
 <Item>
+
 <item type="fruit">
 <ItemName>Mango</ItemName>
 <ItemPrice>12</ItemPrice>
