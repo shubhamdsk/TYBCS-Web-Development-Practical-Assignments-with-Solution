@@ -9,12 +9,12 @@
         h1{
             color : red;
             Font-family: Verdana;
-            Font-size: 80px;
+            Font-size: 8;
         }
         P{
             Color:green;
             Font-Family : Monospace;
-            font-size : 10px;
+            font-size : 10;
         }
 
     </style>
