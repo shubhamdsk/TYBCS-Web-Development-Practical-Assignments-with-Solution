@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #box {
+        padding: 10px;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JQuery Practise</h1>
+    <div id="box" class="test">
+      <h2>Test Box 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis odio
+        perferendis molestiae quidem libero, sit officiis. Repellendus, neque
+        autem unde eius impedit ullam saepe dolore quo quaerat. Obcaecati, totam
+        voluptatibus.
+      </p>
+    </div>
+    <ul id="list">
+      <li>Orange</li>
+      <li class="test">Banana</li>
+      <li>Mango</li>
+      <li class="test">Apple</li>
+      <li>Grapes</li>
+    </ul>
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#list").css("color", "blue"); //giving red colour to list items
+        // $("#list li").css("border","2px solid blue"); //apply all this properties to all li tags in list
+        // $(".test").css("border","2px solid blue"); //apply all this properties to test class
+        // $("*").css("border","2px solid blue"); //apply this properties to all tags in page
+        // $("li:first").css("border","2px solid blue"); //apply this properties to first li
+        // $("li:first-child").css("border","2px solid blue"); //apply this properties to first li in every ul
+        //$("li:last").css("border","2px solid blue"); //apply this properties to last li
+        //$("ul li:eq(2)").css("border","2px solid blue"); //apply this properties to particular li
+        //$("ul li:gt(2)").css("border","2px solid red"); //apply this properties to greater than value(here 2).
+        $("ul li:lt(2)").css("border", "2px solid red"); //apply this properties to lower than value(here 2).
+      });
+    </script>
+  </body>
+</html>
