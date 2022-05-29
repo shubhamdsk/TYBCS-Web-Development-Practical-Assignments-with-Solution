@@ -2,6 +2,10 @@
 <html>
     <head>
     <style>
+        body{
+            background: blue;
+        }
+
         h1{
             color : red;
             Font-family: Verdana;
@@ -16,7 +20,7 @@
     </style>
     </head>
     
-<body>
+<body >
 
 <h1>A Red Heading</h1>
 
