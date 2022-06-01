@@ -1,0 +1,38 @@
+<!-- 1.Design HTML form, accept Student Name, Age, and
+Mobile No. from user.
+Using JavaScript validate for following,
+ a) Student Name should not be empty.
+ b) Student age must be between 1 to 20.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    Enter name : <input type="text" name="name" id="n" /><br />
+    Enter age : <input type="text" name="age" id="a" /><br />
+    <input type="button" value="submit" onclick="check()" />
+
+    <script>
+      function check() {
+        var i;
+        flag = false;
+        var name = document.getElementById("n").value;
+        var age = document.getElementById("a").value;
+        var a = parseInt(age);
+        if (name != null && a > 0 && a <= 20) {
+          alert("Login success");
+        } else {
+          alert(
+            "Student Name should not be empty || Student age must be between 1 to 20."
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

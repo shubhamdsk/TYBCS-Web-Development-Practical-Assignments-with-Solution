@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "slip2.css"?>
+
+<University>
+
+ <Uname>Pune</Uname>
+ <City>pune</City>
+ <Rank>1</Rank>
+
+ <Uname>sangmner</Uname>
+ <City>sangmner</City>
+ <Rank>2</Rank>
+
+
+ <Uname>xyz</Uname>
+ <City>ven</City>
+ <Rank>8</Rank>
+
+</University>
