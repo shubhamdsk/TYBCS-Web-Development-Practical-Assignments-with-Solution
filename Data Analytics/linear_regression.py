@@ -28,12 +28,6 @@ plt.xlabel('TV')
 plt.ylabel('Sales')
 plt.show()
 
-plt.scatter(x_train,y_train,color="blue")
-plt.plot(x_train,regressor.predict(x_train),color="red",linewidth = 3)
-plt.title('Training set')
-plt.xlabel('TV')
-plt.ylabel('Sales')
-plt.show()
 
 print('Regressor Intercept')
 print(regressor.intercept_)
