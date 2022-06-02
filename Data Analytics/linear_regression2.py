@@ -1,6 +1,3 @@
-# Not completely runnable
-
-
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -12,7 +9,7 @@ A = np.random.randint(1,1000,size = (500,4))
 df = pd.DataFrame(A,columns = ['ID','Flat','House','Purchases'])
 print(df)
 
-x=df.drop(['ID','Flat','House','Purchases'],axis=1)
+x=df.drop(['ID','Flat','House'],axis=1)
 y=df['Purchases']
 print(y)
 
@@ -44,8 +41,6 @@ print(regressor.coef_)
 y_pred = regressor.predict(x_test)
 df = pd.DataFrame({'Actual':y_test,'Predicted': y_pred})
 print(df)
-
 print('R2 score : %2f' %r2_score(y_test,y_pred))
 print("Mean Absolute Error",metrics.mean_absolute_error(y_test,y_pred))
-print("Mean Squarred Error",metrics.mean_squared_error(y_test,y_pred))
 print("Root Mean Squarred Error",np.sqrt(metrics.mean_squared_error(y_test,y_pred)))
